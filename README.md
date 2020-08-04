@@ -25,10 +25,10 @@ REST API는 URL과 HTTP프로토콜을 기반으로 한다. 데이터 포맷으�
 REST API는 구축과 확장이 간단하지만, 크고 복잡하게 만들 수도 있다.
 
 * URL의 구성
-프로토콜  http, https, file 등
-호스트 주고 www.naver.com, www.google.com
-파일 경로 /home, /index.html
-Query parameter ?id = 1&postld =1 (검색, 필터링, 데이터 교환 시 사용)
+-프로토콜  http, https, file 등
+-호스트 주소 www.naver.com, www.google.com
+-파일 경로 /home, /index.html
+-Query parameter ?id = 1&postld =1 (검색, 필터링, 데이터 교환 시 사용)
 
 ## 🧡HTTP
 HTML문서를 교환하기 위해 만들어진 통신규약
