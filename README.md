@@ -48,5 +48,24 @@ HTML문서를 교환하기 위해 만들어진 통신규약
 
 ## 💛JSON
 - JSON은 경량의 DATA-교환 형식
+---------------------------------------------------------------------------------
+**💚Javascript 기초 문법**
+* 자습할때 참고하기 좋은 페이지
+1. W3C School : https://www.w3schools.com/
+2. MDN Document : https://developer.mozilla.org/ko/docs/Web/JavaScript
+3. 생활코딩 WEB2 - Javascript : https://opentutorials.org/course/3085
+4. ofcourse : https://ofcourse.kr/
 
+* 변수
+> 사용가능한 데이터 타입 : Boolean, Null, Undefined, Number, String, Symbol, Object
+> var : 변수
+> let : block scope 변수
+> const : 변하지 않는 데이터를 저장
+
+
+
+* Javascript 사용법  
+1. HTML 내부에서 <script> 태그내에서 사용
+2. js. 파일로 만들고, <script src = "파일경로">를 사용해서 불러옴
+  
 
