@@ -24,6 +24,12 @@ REST는 네트워크를 통해서 컴퓨터들끼리 통신할 수 있게 해주
 REST API는 URL과 HTTP프로토콜을 기반으로 한다. 데이터 포맷으로는 브라우저 간 호환성이 좋은 JSON을 사용한다.
 REST API는 구축과 확장이 간단하지만, 크고 복잡하게 만들 수도 있다.
 
+* URL의 구성
+프로토콜  http, https, file 등
+호스트 주고 www.naver.com, www.google.com
+파일 경로 /home, /index.html
+Query parameter ?id = 1&postld =1 (검색, 필터링, 데이터 교환 시 사용)
+
 ## 🧡HTTP
 HTML문서를 교환하기 위해 만들어진 통신규약
 프론트엔드 서버와 클라이어느간의 통신, 백엔드와 프론트엔드 서버간의 통신에 사용되며, TCP/IP 기반으로 되어있다.
@@ -42,3 +48,5 @@ DELETE - URL에 표시된 특정 리소스를 삭제
 
 ## 💛JSON
 - JSON은 경량의 DATA-교환 형식
+
+
