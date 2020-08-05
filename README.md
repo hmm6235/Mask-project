@@ -91,11 +91,13 @@ HTML문서를 교환하기 위해 만들어진 통신규약
 3. Navbar 만들기
 > 적당한 색깔로 만들어 준다.
 > 투명도를 주어 뒤에 Map도 보일 수 있도록 해준다.
+
 * opacity - 투명도 설정
 * ctrl + shift - 주석처리 가능
 * width, height - 사이즈 설정
 * ex) position : absolute - 위치 설정(고정설정)
 *<script></script> - 태그를 만들어서 Java script를  삽입
+
 
 4. Fontawesome CDN 추가
 >Fontawesome은 아이콘 폰트를 제공해주는 사이트이다.
@@ -120,4 +122,7 @@ HTML문서를 교환하기 위해 만들어진 통신규약
 > 검색창 폰트를 나눔고딕으로 바꾸기 위해 웹폰트 가져오기
 > 웹폰트 적용하기
 
+. vs #의 차이점
+* # 기호는 HTML id 속성을 CSS 선택자로 지정할 때 id명 앞에 붙이는 기호
+* . 기호는 HTML class 속성을 CSS 선택자로 지정할 때 class명 앞에 붙이는 기호입니다.
 
