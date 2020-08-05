@@ -63,9 +63,61 @@ HTML문서를 교환하기 위해 만들어진 통신규약
 > const : 변하지 않는 데이터를 저장
 
 
-
 * Javascript 사용법  
 1. HTML 내부에서 <script> 태그내에서 사용
 2. js. 파일로 만들고, <script src = "파일경로">를 사용해서 불러옴
   
+* 비동기 처리
+> promise 객체를 사용한다.
+1. 대기
+2. 이행
+3. 거부
+
+* Fetch API
+1. Fetch API는 네트워크 통신을 위해서 제공되는 API이다.
+2. promise객체를 반환한다.
+3. request, response 라는 두 개의 객체를 사용한다.
+
+## UI작업, Kakao Map 삽입
+1. HTML 구조 만들기
+>Navbar 
+>Main
+
+2. 기본으로 들어있는 스타일 제거
+> 기본적으로 html, body에 margin이 들어있다.
+> 그대로 나두게 되면 꽉찬 화면을 만들 수 없다.
+> body, html이 전체화면을 채우도록 크기를 지정해준다.
+
+3. Navbar 만들기
+> 적당한 색깔로 만들어 준다.
+> 투명도를 주어 뒤에 Map도 보일 수 있도록 해준다.
+* opacity - 투명도 설정
+* ctrl + shift - 주석처리 가능
+* width, height - 사이즈 설정
+* ex) position : absolute - 위치 설정(고정설정)
+*<script></script> - 태그를 만들어서 Java script를  삽입
+
+4. Fontawesome CDN 추가
+>Fontawesome은 아이콘 폰트를 제공해주는 사이트이다.
+> 여기서 Back button과 유사한 것을 찾아서 넣어줄 것이다.
+
+5. Navbar에 Back button 추가하기
+> 위치는 왼쪽에 고정
+> 색은 흰색
+> 사이즈 조절해서 적당한 크기로 만들어준다.
+
+6. Kakao 지도 추가하기
+> API키를 발급하기
+> kakao developers 이용
+> 지도를 추가한 후, 지도 크기/ 위치 조정
+
+7. 검색 창 만들기
+> 검색창 구조
+* 검색창 전체 위치를 조정해줄 컨테이너
+* 검색창을 감싸고 있는 배경
+* 검색창의 input
+* 검색버튼
+> 검색창 폰트를 나눔고딕으로 바꾸기 위해 웹폰트 가져오기
+> 웹폰트 적용하기
+
 
